@@ -1,0 +1,9 @@
+.mvn/
+.settings/
+target/
+syshumres-apirest/
+syshumres-entities/
+syshumres-exceptions/
+syshumres-repositories/
+syshumres-services/
+syshumres-utils/
