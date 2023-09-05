@@ -38,7 +38,7 @@
 		<module>syshumres-repositories</module>
 		<module>syshumres-services</module>
         <module>syshumres-apirest</module>
-	</modules>
+  </modules>
     
     <dependencies>
         <dependency>
@@ -93,6 +93,12 @@
                         <version>${junit-platform-surefire-provider-version}</version>
                     </dependency>
                 </dependencies>
+                <configuration>
+                    <includes>
+                        <include>**/*IT.java</include>
+                        <include>**/*FunctionalTesting.java</include>
+                    </includes>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
