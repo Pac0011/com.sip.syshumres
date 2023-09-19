@@ -24,6 +24,7 @@
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <!-- Java -->
         <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
         <!-- Maven. integration test -->
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
