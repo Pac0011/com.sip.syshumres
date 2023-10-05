@@ -39,7 +39,7 @@
 		<module>syshumres-repositories</module>
 		<module>syshumres-services</module>
         <module>syshumres-apirest</module>
-  </modules>
+    </modules>
     
     <dependencies>
         <dependency>
